@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.apavlidi.FizzBuzzTests", "com.apavlidi.FizzBuzzTests\com.apavlidi.FizzBuzzTests.csproj", "{1FB2563A-77DC-4B15-9FE6-386E7D73EDB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.apavlidi.FizzBuzz", "com.apavlidi.FizzBuzz\com.apavlidi.FizzBuzz.csproj", "{2080F76B-7326-400C-9B4B-7E5ABDC0E90B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FB2563A-77DC-4B15-9FE6-386E7D73EDB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FB2563A-77DC-4B15-9FE6-386E7D73EDB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FB2563A-77DC-4B15-9FE6-386E7D73EDB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FB2563A-77DC-4B15-9FE6-386E7D73EDB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2080F76B-7326-400C-9B4B-7E5ABDC0E90B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2080F76B-7326-400C-9B4B-7E5ABDC0E90B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2080F76B-7326-400C-9B4B-7E5ABDC0E90B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2080F76B-7326-400C-9B4B-7E5ABDC0E90B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
