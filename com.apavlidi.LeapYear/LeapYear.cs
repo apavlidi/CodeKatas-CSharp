@@ -15,14 +15,14 @@
             return (isDivisibleBy(4) && !(isDivisibleBy(100) && isNotDivisibleBy(400)));
         }
 
-        private bool isNotDivisibleBy(int i)
+        private bool isNotDivisibleBy(int number)
         {
-            return _year % i != 0;
+            return _year % number != 0;
         }
 
-        private bool isDivisibleBy(int devide)
+        private bool isDivisibleBy(int number)
         {
-            return _year % devide == 0;
+            return _year % number == 0;
         }
     }
 }
