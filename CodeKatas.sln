@@ -4,6 +4,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.apavlidi.FizzBuzzTests"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.apavlidi.FizzBuzz", "com.apavlidi.FizzBuzz\com.apavlidi.FizzBuzz.csproj", "{2080F76B-7326-400C-9B4B-7E5ABDC0E90B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LeapYearKata", "LeapYearKata", "{863A750B-AE71-469B-BD9B-679C30192F19}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FizzBuzzKata", "FizzBuzzKata", "{5B3749FA-45D5-4743-897D-43600ECC8AC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.apavlidi.LeapYearTests", "com.apavlidi.LeapYearTests\com.apavlidi.LeapYearTests.csproj", "{B1B16A7E-EABD-43E0-8A4C-191281157A16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.apavlidi.LeapYear", "com.apavlidi.LeapYear\com.apavlidi.LeapYear.csproj", "{83329E70-0B08-4C59-9DE0-A84C026F1F5F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +26,19 @@ Global
 		{2080F76B-7326-400C-9B4B-7E5ABDC0E90B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2080F76B-7326-400C-9B4B-7E5ABDC0E90B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2080F76B-7326-400C-9B4B-7E5ABDC0E90B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1B16A7E-EABD-43E0-8A4C-191281157A16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1B16A7E-EABD-43E0-8A4C-191281157A16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1B16A7E-EABD-43E0-8A4C-191281157A16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1B16A7E-EABD-43E0-8A4C-191281157A16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83329E70-0B08-4C59-9DE0-A84C026F1F5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83329E70-0B08-4C59-9DE0-A84C026F1F5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83329E70-0B08-4C59-9DE0-A84C026F1F5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83329E70-0B08-4C59-9DE0-A84C026F1F5F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1FB2563A-77DC-4B15-9FE6-386E7D73EDB3} = {5B3749FA-45D5-4743-897D-43600ECC8AC2}
+		{2080F76B-7326-400C-9B4B-7E5ABDC0E90B} = {5B3749FA-45D5-4743-897D-43600ECC8AC2}
+		{B1B16A7E-EABD-43E0-8A4C-191281157A16} = {863A750B-AE71-469B-BD9B-679C30192F19}
+		{83329E70-0B08-4C59-9DE0-A84C026F1F5F} = {863A750B-AE71-469B-BD9B-679C30192F19}
 	EndGlobalSection
 EndGlobal
